@@ -846,7 +846,7 @@ public class IQKeyboardManager: NSObject, UIGestureRecognizerDelegate {
     private var         _kbShowNotification: Notification?
     
     /** To save keyboard size. */
-    private var         _kbSize = CGSize.zero
+    open var         _kbSize = CGSize.zero
     
     /** To save keyboard animation duration. */
     private var         _animationDuration : TimeInterval = 0.25
